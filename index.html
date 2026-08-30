@@ -87,13 +87,13 @@ const ui = document.getElementById("ui");
 
 
 
-const COUNT = 30;
+const COUNT = 50;
 const words = [];
 
 for (let i = 0; i < COUNT; i++) {
   const el = document.createElement("div");
   el.className = "word";
-  el.textContent = "I love you babi";
+  el.textContent = "Julie";
   ui.appendChild(el);
   words.push({
     el,
@@ -142,7 +142,7 @@ function animate(time) {
 
   requestAnimationFrame(animate);
 }
- 
+
 requestAnimationFrame(animate);
 </script>
 </body>
